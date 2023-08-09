@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CSS Positioning Demo</title>
+  <link rel="stylesheet" href="positioning.css">
+</head>
+<body>
+  <header>
+    <h1>CSS Positioning Demo</h1>
+  </header>
+  <main>
+  <div class="button-group">
+    <button class="button" id="static-btn">Static Positioning</button>
+    <button class="button" id="relative-btn">Relative Positioning</button>
+    <button class="button" id="absolute-btn">Absolute Positioning</button>
+    <button class="button" id="fixed-btn">Fixed Positioning</button>
+  </div>
+  <div class="positioning-type static" style="display:block;">
+    <h2>Static Positioning</h2>
+    <code>
+      position: static;<br>
+      left:50px;<br>
+      top:50px;<br></code>
+      <div class="box"></div>
+  </div>
+  <div class="positioning-type relative">
+    <h2>Relative Positioning</h2>
+    <code>position: relative;<br />
+      left: 50px;<br/>
+      top: 50px;<br/></code>
+      <div class="box"></div>
+  </div>
+  <div class="positioning-type absolute">
+    <h2>Absolute positioning</h2>
+    <code>
+      position: absolute;<br>
+      top:50px;<br>
+      left:50px;<br>
+    </code>
+    <div class="box"></div>
+  </div>
+  <div class="positioning-type fixed">
+    <h2>Fixed Positioning</h2>
+    <code>
+      position: fixed;
+      top:50px;<br>
+      left:50px;<br>
+    </code>
+    <div class="box"></div>
+  </div>
+  </main>
+  <footer>
+    <p>CSS</p>
+  </footer>
+</body>
+</html>

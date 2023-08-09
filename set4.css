@@ -1,0 +1,16 @@
+.header{
+  height: 100px;
+  width: 100px;
+}
+
+
+.workspace{
+  height:500px;
+  width: 500px;
+  background-color: rgb(66, 245, 221,0.2);
+
+}
+.footer{
+  height: 100px;
+  width: 100px;
+}

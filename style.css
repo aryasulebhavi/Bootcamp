@@ -1,0 +1,48 @@
+h1{
+  color:rgb(255, 0, 0);
+  text-decoration: line-through;
+  font-family: arial;
+  
+}
+#id1{
+  background-color:rgb(36, 189, 61);
+}
+#i56{
+  background-color: blue;
+  text-align: left;
+  text-decoration: underline;
+  font-weight:normal;
+}
+.heading{
+  text-align: center;
+  color:aquamarine;
+  text-decoration: overline;
+  text-transform: uppercase;
+  
+
+
+}
+#i70{
+  background-color:blue;
+
+}
+.button{
+  background-color:green;
+}
+#para{
+  text-decoration: line-through;
+  font-family: roboto;
+}
+#image1{
+  border-width: 2px;
+  border-style: dashed;
+  border-radius: 40px;
+  border-color: blue;
+  padding: 50px;
+  margin:100px;
+  height: 200px;
+  
+}
+#video1{
+  border: 2px dotted red;
+}

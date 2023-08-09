@@ -1,0 +1,26 @@
+#i1{
+  display: inline;
+  background-color: black;
+  color:white;
+
+}
+
+.circle{
+  background-color: green;
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+}
+li{
+  display: inline;
+  padding: 7px;
+  color: white;
+
+}
+ul{
+  background-color: black;
+  border: 3px;
+  border-width: 3px;
+  border-style: solid;
+  border-color: yellow;
+}
